@@ -77,3 +77,39 @@
 
 //     }
 // }
+//294
+
+// let elem = document.querySelector('#elem');
+// elem.addEventListener('click', function(event) {
+// 	event.preventDefault();
+//     elem.textContent = elem.textContent + '(' + elem.href +")"
+// });
+
+///296
+
+// let div = document.querySelector('div');
+// let elemsLi = document.querySelectorAll('li')
+
+// div.addEventListener('click', function(event) {
+// 	if (event.target.tagName === 'DIV') {
+// 		console.log('клик именно по диву');
+// 	}
+
+
+// 	if (event.target.tagName === 'UL') {
+//     let newLi = document.createElement('li');
+//     div.appendChild(newLi);
+// 		console.log('клик именно по списку');
+// 	}
+
+
+//     if (event.target.tagName === 'LI') {
+//         for(let elemLi of elemsLi){
+//             elemLi.addEventListener('click',funcLi 
+//             )
+//         }
+// 	}
+// });
+
+// function funcLi()
+// {this.innerHTML += "!"}
