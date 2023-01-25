@@ -77,6 +77,7 @@
 
 //     }
 // }
+
 //294
 
 // let elem = document.querySelector('#elem');
@@ -113,3 +114,52 @@
 
 // function funcLi()
 // {this.innerHTML += "!"}
+
+// let elem1 = document.querySelector('#elem1');
+// let elem2 = document.querySelector('#elem2');
+// let elem3 = document.querySelector('#elem3');
+// elem1.addEventListener('click', function() {
+// 	console.log('зеленый');
+// });
+// elem2.addEventListener('click', function(event) {
+//     event.stopImmediatePropagation();
+// 	console.log('голубой');
+// });
+// elem3.addEventListener('click', function() {
+// 	console.log('красный');
+
+// });
+
+// 297
+
+// let parent = document.querySelector('#parent');
+// let button = document.querySelector('button');
+// let block  = document.querySelector('#block');
+
+// button.addEventListener('click', function() {
+// 	block.classList.add('active');
+//     event.stopPropagation()
+// });
+// parent.addEventListener('click', function() {
+// 	block.classList.remove('active');
+// });
+
+// 299 
+
+// let button = document.querySelector('button');
+// let list   = document.querySelector('ul');
+// let items  = list.querySelectorAll('li');
+// for (let item of items) {
+// 	item.addEventListener('click', handler);
+// }
+// function handler() {
+// 	this.innerHTML = this.innerHTML + '!';
+// }
+// button.addEventListener('click', function() {
+// 	let item = document.createElement('li');
+// 	item.innerHTML = 'item';
+	
+// 	item.addEventListener('click', handler);
+	
+// 	list.appendChild(item);
+// });
